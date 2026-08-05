@@ -1,0 +1,39 @@
+public class prgm3 {
+   public class InterviewRoundAdvisor {
+
+    public static void main(String[] args) {
+
+        // Fixed values
+        int roundCode = 4;
+        int attemptsUsed = 2;
+        int maxAttempts = 3;
+
+        String roundName;
+        String currentROund = "";
+
+        switch (roundCode) {
+            case 1:
+                currentRound = "Aptitude Round";
+                break;
+
+            case 2:
+                currentRound = "Technical Round";
+                break;
+
+            case 3:
+                currentRound = "HR Round";
+                break;
+
+            case 4:
+                currentRound = "Final Review";
+                break;
+
+            default: System.out.println("Invalid ROund");
+        }
+
+        String attemptStatus = (attemptsUsed < maxAttempts) ? "Attempt Available" : "Attempt Limit Reached";
+        System.out.println("Current Round: Final Review");
+        System.out.println("Attempt Status: Attempt Available");
+    }
+} 
+
