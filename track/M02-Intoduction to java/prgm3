@@ -1,9 +1,7 @@
-public class prgm3 {
-   public class InterviewRoundAdvisor {
+public class main {
 
     public static void main(String[] args) {
 
-        // Fixed values
         int roundCode = 4;
         int attemptsUsed = 2;
         int maxAttempts = 3;
